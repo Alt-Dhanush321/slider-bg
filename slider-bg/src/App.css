@@ -1,0 +1,15 @@
+.slide-left {
+	        animation: slide-left 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) both;
+}
+
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
